@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background: #f78b2d;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.cta-buttons .btn {
+  background-color: #eb407a;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  margin-left: 15px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.hero {
+  background: linear-gradient(to right, #f78b2d, #eb407a);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons .btn {
+  background-color: white;
+  color: #eb407a;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
+.services {
+  background: white;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.service-box {
+  flex: 1;
+  padding: 1rem;
+}
+
+.service-box h3 {
+  margin: 1rem 0;
+}
+
+.about-us {
+  background: #f4f4f4;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.about-us p {
+  margin: 1rem 0;
+}
+
+.our-services {
+  background: white;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.our-services .service-item {
+  flex: 1;
+  padding: 1rem;
+}
+
+.our-services img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
